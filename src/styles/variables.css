@@ -1,0 +1,134 @@
+:root {
+  /* Common Palette */
+  --primary: #6C63FF;
+  --primary-hover: #5b52e5;
+  --primary-light: rgba(108, 99, 255, 0.15);
+  --income: #34D399;
+  --income-light: rgba(52, 211, 153, 0.15);
+  --expense: #F87171;
+  --expense-light: rgba(248, 113, 113, 0.15);
+  --savings: #60A5FA;
+  --savings-light: rgba(96, 165, 250, 0.15);
+  --family: #A78BFA;
+  --family-light: rgba(167, 139, 250, 0.15);
+  --food: #FBBF24;
+  --food-light: rgba(251, 191, 36, 0.15);
+  --travel: #22D3EE;
+  --travel-light: rgba(34, 211, 238, 0.15);
+  --shopping: #FB7185;
+  --shopping-light: rgba(251, 113, 133, 0.15);
+  --medical: #F43F5E;
+  --medical-light: rgba(244, 63, 94, 0.15);
+  --education: #3B82F6;
+  --education-light: rgba(59, 130, 246, 0.15);
+  --bills: #F59E0B;
+  --bills-light: rgba(245, 158, 11, 0.15);
+  --entertainment: #EC4899;
+  --entertainment-light: rgba(236, 72, 153, 0.15);
+  --house: #14B8A6;
+  --house-light: rgba(20, 184, 166, 0.15);
+  --salary: #10B981;
+  --salary-light: rgba(16, 185, 129, 0.15);
+  --others: #6B7280;
+  --others-light: rgba(107, 114, 128, 0.15);
+
+  /* Light Theme Variables */
+  --bg-primary: #F6F7FB;
+  --bg-card: #FFFFFF;
+  --bg-sidebar: #FFFFFF;
+  --text-primary: #1F2937;
+  --text-secondary: #6B7280;
+  --text-tertiary: #9CA3AF;
+  --border-color: rgba(229, 231, 235, 0.6);
+  --border-color-hover: rgba(209, 213, 219, 0.8);
+  --progress-track: rgba(0, 0, 0, 0.06);
+  
+  /* Claymorphism Shadows - Light Theme */
+  --clay-shadow-card: 
+    10px 10px 20px rgba(163, 177, 198, 0.35), 
+    -10px -10px 20px rgba(255, 255, 255, 0.8), 
+    inset 3px 3px 6px rgba(255, 255, 255, 0.6), 
+    inset -3px -3px 6px rgba(163, 177, 198, 0.15);
+    
+  --clay-shadow-button: 
+    5px 5px 12px rgba(163, 177, 198, 0.3), 
+    -5px -5px 12px rgba(255, 255, 255, 0.8), 
+    inset 2px 2px 4px rgba(255, 255, 255, 0.7), 
+    inset -2px -2px 4px rgba(163, 177, 198, 0.15);
+
+  --clay-shadow-button-hover: 
+    6px 6px 14px rgba(163, 177, 198, 0.35), 
+    -6px -6px 14px rgba(255, 255, 255, 0.85), 
+    inset 3px 3px 5px rgba(255, 255, 255, 0.8), 
+    inset -3px -3px 5px rgba(163, 177, 198, 0.2);
+
+  --clay-shadow-button-active: 
+    inset 4px 4px 8px rgba(163, 177, 198, 0.4), 
+    inset -4px -4px 8px rgba(255, 255, 255, 0.8);
+
+  --clay-shadow-input: 
+    inset 2px 2px 5px rgba(163, 177, 198, 0.35), 
+    inset -3px -3px 6px rgba(255, 255, 255, 0.8);
+
+  --clay-shadow-badge: 
+    inset 2px 2px 4px rgba(255, 255, 255, 0.4), 
+    inset -2px -2px 4px rgba(0, 0, 0, 0.05);
+
+  --glass-bg: rgba(255, 255, 255, 0.7);
+  --glass-border: rgba(255, 255, 255, 0.4);
+  --glass-blur: blur(12px);
+
+  /* Common Spacing & Radii */
+  --radius-lg: 28px;
+  --radius-md: 20px;
+  --radius-sm: 12px;
+  --transition-smooth: all 0.3s cubic-bezier(0.25, 0.8, 0.25, 1);
+  --font-family: 'Outfit', 'Inter', -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, sans-serif;
+}
+
+[data-theme="dark"] {
+  /* Dark Theme Variables */
+  --bg-primary: #0F172A;
+  --bg-card: #1E293B;
+  --bg-sidebar: #1E293B;
+  --text-primary: #F3F4F6;
+  --text-secondary: #9CA3AF;
+  --text-tertiary: #6B7280;
+  --border-color: rgba(51, 65, 85, 0.6);
+  --border-color-hover: rgba(71, 85, 105, 0.8);
+  
+  /* Claymorphism Shadows - Dark Theme */
+  --clay-shadow-card: 
+    10px 10px 25px rgba(0, 0, 0, 0.4), 
+    -10px -10px 25px rgba(255, 255, 255, 0.02), 
+    inset 2px 2px 5px rgba(255, 255, 255, 0.08), 
+    inset -2px -2px 5px rgba(0, 0, 0, 0.4);
+
+  --clay-shadow-button: 
+    5px 5px 12px rgba(0, 0, 0, 0.35), 
+    -5px -5px 12px rgba(255, 255, 255, 0.02), 
+    inset 2px 2px 4px rgba(255, 255, 255, 0.1), 
+    inset -2px -2px 4px rgba(0, 0, 0, 0.35);
+
+  --clay-shadow-button-hover: 
+    6px 6px 14px rgba(0, 0, 0, 0.4), 
+    -6px -6px 14px rgba(255, 255, 255, 0.03), 
+    inset 2px 2px 5px rgba(255, 255, 255, 0.12), 
+    inset -2px -2px 5px rgba(0, 0, 0, 0.4);
+
+  --clay-shadow-button-active: 
+    inset 4px 4px 8px rgba(0, 0, 0, 0.5), 
+    inset -4px -4px 8px rgba(255, 255, 255, 0.03);
+
+  --clay-shadow-input: 
+    inset 2px 2px 5px rgba(0, 0, 0, 0.4), 
+    inset -3px -3px 6px rgba(255, 255, 255, 0.03);
+
+  --clay-shadow-badge: 
+    inset 2px 2px 4px rgba(255, 255, 255, 0.05), 
+    inset -2px -2px 4px rgba(0, 0, 0, 0.3);
+
+  --glass-bg: rgba(30, 41, 59, 0.7);
+  --glass-border: rgba(255, 255, 255, 0.05);
+  --progress-track: rgba(255, 255, 255, 0.08);
+}
